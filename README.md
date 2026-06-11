@@ -1,34 +1,65 @@
-# Employee Management System
+# Employee Management System (Java Swing + JDBC)
 
-A simple Employee Management System developed in Python using Object-Oriented Programming (OOP) concepts. This project allows managing employee information, tracking employee records, and performing basic administrative operations through a command-line interface.
+A desktop-based Employee Management System built using **Java (Swing GUI)** and **JDBC for database connectivity**. This project provides a complete solution for managing employee records with authentication and profile management features.
+
+The system includes login authentication, employee CRUD operations, and user profile customization features such as password change and profile picture update.
 
 ## Features
 
-### 👨‍💼 Employee Management
+### 🔐 Authentication System
 
-* Add new employees
-* View employee details
-* Update employee information
-* Remove employee records
+* User Login system
+* Secure session access
+* Splash screen before application start
 
-### 📋 Record Management
+### 👨‍💼 Employee Management (CRUD)
 
-* Store employee data
-* Search employee records
-* Display all employees
+* Add new employee details
+* View employee information
+* Update employee records
+* Remove employee from system
 
-### 🏢 Administration
+### 👤 Profile Management
 
-* Manage employee information efficiently
-* Maintain organized employee records
+* Edit user profile information
+* Change password
+* Change profile picture
+
+### 🏠 Dashboard
+
+* Home dashboard after login
+* Navigation to all major features
+
+### 🗄️ Database Integration
+
+* JDBC connection using `Conn.java`
+* Persistent storage for employee and user data
+
+## Project Modules
+
+* `Login.java` → Handles user authentication
+* `Splash.java` → Loading screen before login
+* `Home.java` → Main dashboard
+* `AddEmployee.java` → Add new employee data
+* `ViewEmployee.java` → View employee records
+* `UpdateEmployee.java` → Update existing employee data
+* `RemoveEmployee.java` → Delete employee records
+* `EditProfile.java` → Edit user profile
+* `ChangePassword.java` → Password update module
+* `ChangeProfilePicture.java` → Profile image update
+* `Conn.java` → Database connection handler
 
 ## OOP Concepts Used
 
-This project demonstrates the following Object-Oriented Programming concepts:
-
 * Classes and Objects
-* Constructors
 * Encapsulation
-* Inheritance
-* Polymorphism
-* Modular Code Structure
+* Abstraction
+* Modular Programming
+* GUI Event Handling (Swing)
+* Database Connectivity (JDBC)
+
+## Technologies Used
+
+* Java (Swing GUI)
+* JDBC
+* MySQL (or any configured relational database)
